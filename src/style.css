@@ -23,6 +23,55 @@ a:hover {
   color: #535bf2;
 }
 
+.outside{
+   
+  border: 5px solid;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ 
+}
+
+.outside .card { 
+ display: inline-grid;
+ border: 7px solid;
+ padding: 10px;
+ margin: 10px;
+}
+
+.outside .btn-add {
+
+padding: 20px;
+margin: 120px;
+ 
+}
+
+img {
+ width: 200px;
+ padding-top: 5px;
+ padding-left: 60px;
+ margin: 20px;
+ 
+  @media screen and (min-width: 500px) and (max-width: 800px)
+     {
+           max-width: 50%;
+           height: auto;
+     }
+} 
+
+.btn-details{ 
+     
+padding: 20px;
+margin: 120px;
+
+
+     
+ }
+
+ 
+
+
 a {
   font-weight: 500;
   color: #646cff;
